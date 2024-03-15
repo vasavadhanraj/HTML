@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 2: Q(1)</title>
+    </head>
+    <body>
+        <form action="submit.html" method="get">
+            <h1>Dado Tea Lunch Special</h1>
+            <p>Monday through Friday <br>
+                11am - 3pm <br>
+                59.95 plus tax
+            </p>
+            <fieldset>
+                <legend>Order Information</legend><br>
+                <label><b>Name</b></label><br><input type="text" name="name"><br><br>
+                <input type="radio" name="here"><b>Here</b><br>
+                <input type="radio" name="to go"><b>To Go</b>
+            </fieldset>
+            <fieldset>
+                <legend>Sandwiches</legend><br>
+                <label><b>Monday</b></label><br>
+                <input type="radio" name="tomato mozzarella">Tomato Mozzarella<br>
+                <input type="radio" name="chicken salad">Chicken Salad
+                <br>
+                <br>
+                <label><b>Tuesday</b></label><br>
+                <input type="radio" name="greek salad wrap">Greek Salad Wrap<br>
+                <input type="radio" name="toto wrap">Toto Wrap
+                <br>
+                <br>
+                <label><b>Wednesday</b></label><br>
+                <input type="radio" name="red pepper hummus">Red Pepper Hummus<br>
+                <input type="radio" name="roasted turkey">Roasted Turkey
+                <br>
+                <br>
+                <label><b>Thursday</b></label><br>
+                <input type="radio" name="carrot-ginger hummus wrap">Carrot-Ginger Hummus Wrap<br>
+                <input type="radio" name="egg salad">Egg Salad
+                <br>
+                <br>
+                <label><b>Friday</b></label><br>
+                <input type="radio" name="dado wrap">Dado Wrap<br>
+                <input type="radio" name="tuna salad">Tuna Salad
+                <hr>
+                <input type="checkbox" name="gluten free bread">Gluten Free Bread(75e extra) 
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Snack</legend><br>
+                <label><b>Snacks</b></label><br>
+                <input type="radio" name="apple">Apple<br>
+                <input type="radio" name="banana">Banana<br>
+                <input type="radio" name="potato chips">Potato Chips
+            </fieldset>
+            <fieldset>
+                <legend>Drink</legend><br>
+                <label><b>Drinks</b></label><br>
+                <select name="drinks">
+                    <option value="hot black tea - keemun">Hot Black Tea - Keemun</option>
+                    <option value="tea">Tea</option>
+                    <option value="coffee">Coffee</option>
+                </select>
+                <hr>
+                <input type="checkbox" name="large drink">Large Drink (75e extra) 
+            </fieldset><br>
+            <input type="submit" value="Place order">
+        </form>
+    </body>
+</html>

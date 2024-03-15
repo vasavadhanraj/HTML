@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 2: Q(2)</title>
+        <script>
+            function myfunction(){
+                document.body.style.background = "purple"
+            }
+
+            function myfunction2(){
+                document.body.style.background = "limegreen"
+            }
+
+            function myfunction3(){
+                document.body.style.background = "yellow"
+            }
+
+            function myfunction4(){
+                document.body.style.background = "aqua"
+            }
+
+        </script>
+    </head>
+    <body>
+        <form action="submit.html">
+            <label>Name : </label><input type="text" name="name" onclick="myfunction()"><br>
+            <br>
+            <label>Last Name : </label><input type="text" name="lastname" onclick="myfunction2()"><br>
+            <br>
+            <label>Number : </label><input type="number" name="number" onclick="myfunction3()"><br>
+            <br>
+            <label>Email : </label><input type="email" name="email" onclick="myfunction4()"><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
